@@ -3,7 +3,7 @@
 <template>
   <div class="container">
       <div class="row">
-    <b-button variant="outline-primary" @click="getData">Search for duplicate data</b-button>
+    <b-button variant="outline-primary" @click="getData">Search for duplicate hosts</b-button>
   </div>
   <div class="row">
     <b-table striped hover :items="items"></b-table>
